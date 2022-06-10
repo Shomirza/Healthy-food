@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container_block">
+            <header class="d-flex ">
+                <nav class="nav d-flex justify-content-between align-items-center">
+                    <div class="nav-left d-flex justify-content-between align-items-center">
+                        <img src="./images/logo.png" alt="LOGO">
+                        <ul class="d-flex justify-content-between align-items-center">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#feature">Features</a></li>
+                            <li><a href="#AboutUs">About Us</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-right">
+                        <button class="nav-btn" onclick="Modal()"><i class="bi bi-cart"></i> <span class="cartspan"></span></button>
+                    </div>
+                </nav>
+                <section id="home" class="firstPage">
+                    <div class="headerText d-flex flex-column justify-content-between">
+                        <h1>Making time a good time by making food the good food.</h1>
+                        <p>There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment,</p>
+                        <div class="btn-group">
+                            <button id="btn-left" onclick="btnLeft()" class="active-btn">Order Now</button>
+                            <button id="btn-right" onclick="btnRight()">Food Details</button>
+                        </div>
+                    </div>
+                </section>
+
+            </header>
+            
+            <min-nav class=" justify-content-around align-items-center">
+                <li><a href="#home" class="bi bi-house"></a></li>
+                <li><a href="#feature" class="bi bi-person"></a></li>
+                <li><a href="#menu" class="bi bi-list"></a></li>
+                <li><a href="#contact" class="bi bi-phone"></a></li>
+            </min-nav>
+
+            <section id="feature" class="secondPage d-flex flex-column justify-content-center align-items-center">
+                <div class="text-center">
+                    <h4 class="active">FEATURES</h4>
+                    <h1 class="mb-5">Food with a New Passion</h1>
+                </div>
+                <div class="mt-5 d-flex justify-content-center flex-wrap">
+                    <div class="featBlock text-center d-flex justify-content-center align-items-center flex-column">
+                        <div class="featBox d-flex justify-content-center align-items-center">
+                            <img src="./img/hous.png" alt="">
+                        </div>
+                        <h3>Quality Food</h3>
+                        <p>It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
+                    </div>
+                    <div class="featBlock text-center d-flex justify-content-center align-items-center flex-column">
+                        <div class="featBox d-flex justify-content-center align-items-center">
+                            <img src="./img/food-delivery.png" alt="">
+                        </div>
+                        <h3>Quality Food</h3>
+                        <p>It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
+                    </div>
+                    <div class="featBlock text-center d-flex justify-content-center align-items-center flex-column">
+                        <div class="featBox d-flex justify-content-center align-items-center">
+                            <img src="./img/smile.png" alt="">
+                        </div>
+                        <h3>Quality Food</h3>
+                        <p>It can be a very secure path to earn good money and make you very successful creative entrepreneur.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="AboutUs" class="AboutUs d-flex justify-content-between flex-wrap">
+                <div class="ThirdLeft">
+                    <img src="./img/Users.png" alt="">
+                </div>
+                <div class="ThirdRight">
+                    <h4>ABOUT US</h4>
+                    <h2>Food Stalls with Persons but  to  Product marketing plane
+                        catlogues etc to. </h2>
+                    <p>There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also 
+                        equipment  make your marketing plane Effective.</p>
+                    <button class="active-btn">Read More</button>
+                </div>
+            </section>
+
+            <section id="menu" class="menu d-flex flex-column justify-content-center align-items-center mb-5">
+                <div class=" menuText text-center ">
+                    <h4 class="active">MENU</h4>
+                    <h2 class="mb-4">Food Full of treaty Love</h2>
+                    <p>There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, </p>
+                </div>
+                <div class="row flex-wrap foods mt-5 justify-content-center">
+                    
+                </div>
+                <button class="active-btn">Learn More</button>
+            </section>
+
+            <div class="TakeAway d-flex justify-content-center align-items-center flex-wrap ">
+                <div class="TakeText pr-5">
+                    <h4 class="active">Take away</h4>
+                    <h2>Food Stalls with Persons but  to  Product marketing plane. </h2>
+                    <p>There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipmentwith Persons but also  Just Food Stalls with Persons.</p>
+                    <button class="Btn border btn-dark">App Store</button>
+                    <button class="Btn border btn-light">Play Market</button>
+                </div>
+                <img src="./img/mobil.png" alt="">
+            </div>
+
+            <div class="Testimonial">
+                <div class="row">
+                    <div class=" testimText text-center mb-5">
+                        <h4 class="active">TESTIMONIAL</h4>
+                        <h2>Making Food great again and again</h2>
+                        <p>You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your.</p>
+                    </div>
+                    <div id="demo" class="col-12 carousel slide" data-ride="carousel">
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <div class="d-flex justify-content-center align-items-center flex-column">
+                                  <div class="img mb-5 ml-n5">
+                                        <img class="bg_car" src="./images/bg_carusel.png" alt="">
+                                        <img class="user_car" src="./img/user.png" alt="Los Angeles">
+                                  </div>
+                                  <div class=" textCar text-center">
+                                      <p class="text-dark">You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc very successful to make your.</p>
+                                      <h4 class="mb-4">&starf;&starf;&starf;&starf;<span class="text-secondary">&starf;</span></h4>
+                                      <h5 class="text-dark">AUGUSTA W. REYNOSO</h5>
+                                      <p class="text-dark">UI&UX DESIGNER</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item ">
+                              <div class="d-flex justify-content-center align-items-center flex-column">
+                                  <div class="img mb-5 ml-n5">
+                                        <img class="bg_car" src="./images/bg_carusel.png" alt="">
+                                        <img class="user_car" src="./img/user.png" alt="Los Angeles">
+                                  </div>
+                                  <div class=" textCar text-center">
+                                      <p class="text-dark">You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc very successful to make your.</p>
+                                      <h4 class="mb-4">&starf;&starf;&starf;<span class="text-secondary">&starf;</span><span class="text-secondary">&starf;</span></h4>
+                                      <h5 class="text-dark">AUGUSTA W. REYNOSO</h5>
+                                      <p class="text-dark">UI&UX DESIGNER</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item ">
+                              <div class="d-flex justify-content-center align-items-center flex-column">
+                                  <div class="img mb-5 ml-n5">
+                                        <img class="bg_car" src="./images/bg_carusel.png" alt="">
+                                        <img class="user_car" src="./img/user.png" alt="Los Angeles">
+                                  </div>
+                                  <div class=" textCar text-center">
+                                      <p class="text-dark">You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc very successful to make your.</p>
+                                      <h4 class="mb-4">&starf;&starf;<span class="text-secondary">&starf;</span><span class="text-secondary">&starf;</span><span class="text-secondary">&starf;</span></h4>
+                                      <h5 class="text-dark">AUGUSTA W. REYNOSO</h5>
+                                      <p class="text-dark">UI&UX DESIGNER</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- Left and right controls -->
+                          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <b class="bi bi-chevron-left"></b>
+                          </a>
+                          <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <b class="bi bi-chevron-right"></b>
+                          </a>
+                        </div>
+                      
+                      
+                      </div>
+                </div>
+            </div>
+
+            <div id="contact" class="Contact row d-flex align-items-center">
+                <div class="col-6 text-center offset-3">
+                    <h4 class="active mb-4">CONTACT</h4>
+                    <h2 class="mb-5">Food Stalls with Persons but also specialized equipment, Skills to manage.</h2>
+                    <form class="input">
+                        <input type="text" placeholder="Enter your message">
+                        <button class="active-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer d-flex justify-content-between">
+                <div class="LOGO footerBox d-flex flex-column justify-content-between">
+                    <img class="logo mb-4" src="./images/logo.png" alt="">
+                    <h6>www.company name.com</h6>
+                    <h6>companyname@gmail.com</h6>
+                    <h6>Phone: +7 485-118-03-25</h6>
+                </div>
+                <div class="Home footerBox d-flex flex-column justify-content-between">
+                    <h5 class="mb-4">Home</h5>
+                    <h6>Landingpage</h6>
+                    <h6>Documentation</h6>
+                    <h6>Referral Program</h6>
+                    <h6>UI & UX Design</h6>
+                    <h6>Web Design</h6>
+                </div>
+                <div class="Menu footerBox d-flex flex-column justify-content-between">
+                    <h5 class="mb-4">Menu</h5>
+                    <h6>Landingpage</h6>
+                    <h6>Documentation</h6>
+                    <h6>Referral Program</h6>
+                    <h6>UI & UX Design</h6>
+                    <h6>Web Design</h6>
+                </div>
+                <div class="Company footerBox d-flex flex-column justify-content-between">
+                    <h5 class="mb-4">Company</h5>
+                    <h6>Landingpage</h6>
+                    <h6>Documentation</h6>
+                    <h6>Referral Program</h6>
+                    <h5 class="mt-4 d-flex justify-content-between align-items-center">
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-youtube"></i>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Result text-center">
+        <h2 class="mt-4">BASKET</h2>
+        <div class="ResultTable">
+            <table></table>
+        </div>
+        <h3 class="text-success">Total - <b id="total">300</b> $</h3>
+        <div class="text-center">
+            <button class="btn btn-success" onclick="Submit()">Submit</button>
+            <button onclick="Cencel()" class="btn btn-danger">Cancel</button>
+        </div>
+    </div>
+    <div class="alert">
+        <h1>Thank You 😎</h1>
+    </div>
+
+    <script src="./bootstrap/js/jQuery.min.js"></script>
+    <script src="./bootstrap/js/popper.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
